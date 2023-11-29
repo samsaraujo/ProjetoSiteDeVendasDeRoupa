@@ -1,0 +1,50 @@
+header{
+    background-color: rgb(108, 185, 216);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    size: 0.2px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(230, 173, 52);
+}
+.logo{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.box a {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.figure img{
+    
+    background-image: url(./imagensroupas/roupas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;       
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(230, 173, 52);
+}
+

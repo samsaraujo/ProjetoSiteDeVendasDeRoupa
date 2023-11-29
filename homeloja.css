@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.logo img{
+        width: 100px;
+        height: auto;
+    }
+.logo h1 {
+    size: 16px;
+    padding: 0;
+}
+
+nav{
+    
+    justify-content: center;
+    display: flex;
+    background-color: rgba(182, 167, 31, 0.781);
+    padding: 5px;
+    align-items: center;
+}
+
+.box{
+    margin: 0 30px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.box a{
+
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    padding: 0.1px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    max-height: calc(70vh);
+}
+
+.figure-carousel{
+position: relative;
+margin-bottom: 20px;
+}
+
+.figure-carousel img{
+    height: auto;
+    max-width: 100%;
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    /*transition: transform 0.5s ease-in-out;*/
+}
+.text1-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.text2-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.text3-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    color: #fff;
+    border-radius: 30px;
+}
+
+/*
+.figure-carousel{
+    display: flex;
+    overflow: hidden;
+}
+ 
+.controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}*/
